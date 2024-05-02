@@ -73,7 +73,7 @@ a{
     width: 470px;
 }
 
-.bottom-text > button {
+button {
     background-color: #3882f6;
     color: #F9FAF8;
     padding: 10px 30px;
@@ -153,6 +153,27 @@ blockquote > p {
     font-style: normal;
     font-weight: bold;
     text-align: right;
+}
+
+.sign-up-prompt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.prompt {
+    background-color: #3882f6;
+    padding: 40px 90px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 150px;
+}
+
+.prompt > button {
+    border: 2px solid #F9FAF8;
 }
 
 header,
