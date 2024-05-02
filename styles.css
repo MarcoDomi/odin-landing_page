@@ -1,23 +1,28 @@
-header, footer {
-    /*background-color: #1F2937;*/
+body {
+    font-family: 'roboto', Courier, monospace;
 }
+
 
 header {
     display: flex;
     flex-direction: column;
+    padding: 10px;
+    padding-bottom: 140px;
+    gap: 100px;
 }
 
 
 .top-header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: 20px;
+    justify-content: space-evenly;
+    gap: 320px;
+    
 }
 
 .logo {
     font-size: 24px;
-    /*color: #F9FAF8;*/
+    color: #F9FAF8;
 }
 
 ul {
@@ -26,30 +31,72 @@ ul {
     display: flex;
     list-style-type: none;
     gap: 50px;
+    
 }
 
 a{
     text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
+/*BOTTOM HEADER */
 .bottom-header {
     display: flex;
-    justify-content: space-around;
-    border: 2px solid red;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+/*BOTTOM TEXT*/
+.bottom-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.bottom-text > h2 {
+    padding: 0px;
+    margin: 0px;
+    width: 400px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
 }
 
 .bottom-text > p {
-    border: 2px solid red;
-    width: 300px;
-    text-wrap: wrap;
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 470px;
 }
 
+.bottom-text > button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+/*BOTTOM TEXT*/
 
 .image-container {
-    border: 2px solid red;
-    width: 500px;
+    width: 550px;
     height: 230px;
+    margin-right: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #F9FAF8;
+    background-color: rgb(123, 131, 149);
+}
+
+/*BOTTOM HEADER*/
+
+header,
+footer {
+    background-color: #1F2937;
 }
