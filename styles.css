@@ -133,8 +133,27 @@ a{
 
 .quote {
     background-color: #e5e7eb;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+blockquote {
+    width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: left;
+}
+
+blockquote > p {
+    margin: 0px;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+}
 
 header,
 footer {
