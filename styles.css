@@ -2,7 +2,7 @@ body {
     font-family: 'roboto', Courier, monospace;
 }
 
-
+/*HEADER*/
 header {
     display: flex;
     flex-direction: column;
@@ -40,13 +40,13 @@ a{
     color: #e5e7eb;
 }
 
-/*BOTTOM HEADER */
+
 .bottom-header {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
 }
-/*BOTTOM TEXT*/
+
 .bottom-text {
     display: flex;
     flex-direction: column;
@@ -81,7 +81,6 @@ a{
     font-weight: bold;
     border-radius: 7px;
 }
-/*BOTTOM TEXT*/
 
 .image-container {
     width: 550px;
@@ -94,7 +93,48 @@ a{
     background-color: rgb(123, 131, 149);
 }
 
-/*BOTTOM HEADER*/
+/*HEADER*/
+/*INFO - START*/
+.info {
+    margin-top: 40px;
+    padding-bottom: 100px;
+}
+
+.info > h2 {
+    
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin-bottom: 50px;
+}
+
+.image-cards {
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+}
+
+.card > div {
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+}
+
+.card > p {
+    color: #80868e;
+    font-weight: bold;
+    text-align: center;
+    width: 150px;
+    margin-top: 7px;
+}
+/*INFO - END*/
+
+.quote {
+    background-color: #e5e7eb;
+}
+
 
 header,
 footer {
